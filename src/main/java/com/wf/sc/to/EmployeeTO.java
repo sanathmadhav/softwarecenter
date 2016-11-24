@@ -1,7 +1,6 @@
-package com.wf.sc.model;
+package com.wf.sc.to;
 
-public class Employee {
-
+public class EmployeeTO {
 	private int id;
 	private String name;
 
@@ -21,11 +20,11 @@ public class Employee {
 		this.name = name;
 	}
 
-	public Employee() {
+	public EmployeeTO() {
 
 	}
 
-	public Employee(int id, String name) {
+	public EmployeeTO(int id, String name) {
 		super();
 		this.id = id;
 		this.name = name;
