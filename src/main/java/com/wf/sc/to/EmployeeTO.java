@@ -1,6 +1,7 @@
 package com.wf.sc.to;
 
 public class EmployeeTO {
+	
 	private int id;
 	private String name;
 
